@@ -1,0 +1,71 @@
+
+
+body {
+    background: rgba(94, 154, 214, 0.45);
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+#largeCon {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: auto;
+    /* background: red; */
+}
+
+#dashCon {
+    width: 35%;
+    background: rgba(0, 0, 200, 0.4);
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+
+}
+
+#choreCon {
+    width: 65%;
+    background: rgba(55, 206, 133, 0.3);
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    overflow-y: scroll;
+    gap: 25px;
+    padding: 25px;
+}
+
+textarea {
+    width: 95%;
+    height: 150px;
+}
+
+#dur {
+    width: 60px;
+}
+
+#title_text {
+    max-width: 85%;
+}
+
+#reset_button {
+    height: 35px;
+    margin-right: 35px;
+}
+
+#titleCon {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#dummy {
+    background: rgba(0, 0, 0, 0);
+    border-color: rgba(0, 0, 0, 0);
+    margin-right: 35px;
+}
+
+.chore-module {
+    height: fit-content;
+    background-color: goldenrod;
+}
