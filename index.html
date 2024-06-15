@@ -8,39 +8,101 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <script src="script.js"></script>
     <div id="titleCon">
         <button id="dummy"></button>
         <h1 id="title_text">CHORE CHART</h1>
-        <button id="reset_button">RESET</button>
+        <button id="reset_button" onclick="reset_chart()">RESET</button>
     </div>
     <div id="largeCon">
         <div id="dashCon">
             <h1>Dashboard</h1>
+            <div id="start_con">
+                <h3>The start date of this ChoreChart is <input id="start" type="date"/>.</h3>
+            </div>
             <div id="name_section">
                 <h3>Enter your house people here:</h3>
-                <textarea placeholder="Please type the names of all members in your house separated by a return..."></textarea>
+                <textarea id="name_input" placeholder="Please type the names of all members in your house separated by a return..." required></textarea>
             </div>
             <div id="chore_section">
                 <h3>Enter your house people here:</h3>
-                <textarea placeholder="Please type all chores separated by a return..."></textarea>
+                <textarea id="chore_input" placeholder="Please type all chores separated by a return..." required></textarea>
             </div>
             <div id="duration_section">
-                <h3>I would like each each rotation to last <input id="dur" type="text"/> days.</h3>
-                
+                <h3>I would like each each rotation to last <input id="dur" type="number" min="1" max="100" placeholder="7"/> days.</h3>
             </div>
         </div>
 
         <div id="choreCon">
 
             <div class="chore-module">
-               <h3>Name</h3>
-               <ul>
-                    <li>Chore 1</li>
-                    <li>Chore 2</li>
-                    <li>Chore 3</li>
-               </ul>
+                <div class="cm_img">
+                    <img class="test2" src="./images/jay.jpg"></img>
+                </div>
+                <div class="cm_text">
+                    <h3>jay</h3>
+                    <ul>
+                        <li>Chore 1</li>
+                        <li>Chore 2</li>
+                        <li>Chore 3</li>
+                    </ul>
+                </div>
             </div>
-
+            <div class="chore-module">
+                <div class="cm_img">
+                    <img class="test2" src="./images/josh.jpg"></img>
+                </div>
+                <div class="cm_text">
+                    <h3>josh</h3>
+                    <ul>
+                        <li>Chore 1</li>
+                        <li>Chore 2</li>
+                        <li>Chore 3</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="chore-module">
+                <div class="cm_img">
+                    <img class="test2" src="./images/katie.jpg"></img>
+                </div>
+                <div class="cm_text">
+                    <h3>katie</h3>
+                    <ul>
+                        <li>Chore 1</li>
+                        <li>Chore 2</li>
+                        <li>Chore 3</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="chore-module">
+                <div class="cm_img">
+                    <img class="test2" src="./images/sophia.JPG"></img>
+                </div>
+                <div class="cm_text">
+                    <h3>sophia</h3>
+                    <ul>
+                        <li>Chore 1</li>
+                        <li>Chore 2</li>
+                        <li>Chore 3</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="chore-module">
+                <div class="cm_img">
+                    <img class="test2" src="./images/sophie.jpg"></img>
+                </div>
+                <div class="cm_text">
+                    <h3>sophie</h3>
+                    <ul>
+                        <li>Chore 1</li>
+                        <li>Chore 2</li>
+                        <li>Chore 3</li>
+                    </ul>
+                </div>
+            </div>
         </div>
+    </div>
+    <div id="stored-info">
+
     </div>
 </body>

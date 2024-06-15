@@ -10,7 +10,6 @@ body {
     display: flex;
     flex-direction: row;
     width: 100%;
-    height: auto;
     /* background: red; */
 }
 
@@ -37,7 +36,7 @@ body {
 
 textarea {
     width: 95%;
-    height: 150px;
+    height: 120px;
 }
 
 #dur {
@@ -66,6 +65,18 @@ textarea {
 }
 
 .chore-module {
-    height: fit-content;
+    height: 200px;
     background-color: goldenrod;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border-radius: 50px;
+}
+
+.cm_text {
+    height: 200px;
+}
+
+#stored-info {
+    display: none;
 }
