@@ -1,5 +1,8 @@
 # CHORE CHART
 
+## Current Status
+This is currently in development and not functional. When functionality is finished, this will be updated.
+
 ## Inpsiration && Basic Details
 This is a rather silly project I decided to make for my roommates. Rather than a excel spreadsheet or a whiteboard, why not spend some time developing a website to keep track of who does what chores when. The idea is simple: enter the names of the people, the chores needed to be completed, and the amount of time you'd like the pairings to be stable. Each person will have a little section and the chores within it will rotate. This website is pretty bare-bones, front-end only, just html, css, and javascript. It is intended to be run locally as the implementation alters the html file as the program is run rather than using a backend.
 
